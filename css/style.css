@@ -1,0 +1,382 @@
+/* 
+    Author: Sinchana;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #e7a7e7;
+    text-decoration: none;
+}
+a:hover{
+    color: #b57477;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSS for navbar section */
+
+.menu{
+    /* background-color: #374b61; */
+
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    /* margin: 0; */
+    line-height: 120px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    padding: 2% 8%;
+    margin-bottom: 3%;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18%;
+
+
+    /* padding: 0 96px; */
+}
+
+.menu-items {
+    width: 70%;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 28px;
+    /* background-color: #ff4757; */
+    margin-right: 0;
+    margin-left: 3%;
+}
+
+.menu-items ul li{
+    padding: 1% 8%;
+    color: white;
+}
+
+/* .menu-items a:before {
+    content: "";
+    position: relative;
+    left: 40%;
+    top: 40%;
+    width: 20px;
+    height: 3px;
+    background-color: #311bc4;
+    transition: all 0.5s linear;
+
+}
+.menu-items a:hover:before{
+    width: 800px;
+    background-color: #f7ebf5;
+} */
+
+/* .menu ul li{
+    display: inline;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 22px;
+} */
+
+.logo{
+
+    /* position: relative; */
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    /* box-shadow: 	0px 9px 12px 0px rgba(0,0,0,0.20); */
+    /* box-shadow: 0px -1px 14px 2px rgba(113,111,120,1);
+    -webkit-box-shadow: 0px -1px 14px 2px rgba(113,111,120,1);
+    -moz-box-shadow: 0px -1px 14px 2px rgba(113,111,120,1); */
+
+    box-shadow: 0px -1px 14px 2px rgba(5,3,13,1);
+    /* -webkit-box-shadow: 0px -1px 14px 2px rgba(5,3,13,1);
+    -moz-box-shadow: 0px -1px 14px 2px rgba(5,3,13,1); */
+}
+
+.logo img
+{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .navbar{
+    position: fixed;
+}
+ */
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+ 
+}
+.food-search-order{
+    background-color: #5f3859ab;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+
+}
+
+.food-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.food-menu-box{
+    width: 43%;
+    margin: 1% 3%;
+    padding: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 25%;
+    float: left;
+    margin-left: 0.5%;
+
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 1% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    margin-bottom: 10px;
+}
+
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+    padding: 2%;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.footer{
+    height: 155px;
+    color: white;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background-color: #72A0C1; */
+    /* background-image: url(../images/bg16.png); */
+    background-repeat: no-repeat;
+
+
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}

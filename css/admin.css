@@ -1,0 +1,298 @@
+/*
+ Author: Sinchana;
+ Theme: food order website Admin;
+ Version: 1.0;
+ DRY pattern: Don't repeat yourself;
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* user-select: none; */
+    text-decoration: none;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+ }
+
+ body {
+    min-height: 100vh;
+    position: relative;
+ }
+
+ .wrapper{
+    /* border: 1px solid black; */
+    padding: 0.5%;
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+ }
+
+ .wrapper-lite{
+   /* border: 1px solid black; */
+   padding: 5%;
+   width: 90%;
+   margin: 0 auto;
+   text-align: center;
+   /* text-align: center; */
+} 
+.my-table{
+   /* text-align: center; */
+   margin: 0 auto;
+}
+
+ .text-center {
+    text-align: center;
+ }
+
+ .text-left {
+    text-align: left;
+ }
+
+ .clearfix{
+    float: none;
+    clear: both;
+ }
+
+ .tbl-full{
+    width: 100%;
+ }
+
+ .tbl-30 {
+   width: 30%;
+ }
+
+ .tbl-40 {
+   width: 40%;
+ }
+
+ .tbl-50 {
+   width: 50%;
+ }
+
+ input{
+   padding: 1% 5% ;
+ }
+
+ textarea{
+   padding: 1% 5%;
+ }
+
+ select{
+   width: 210px;
+   height: 40px;
+   padding-left: 4%;
+ }
+
+ table tr th{
+   border-bottom: 1px solid black;
+   padding: 1%;
+   text-align: left;
+}
+
+table tr td{
+   padding: 1%;
+}
+
+
+.btn-primary{
+   background-color: #1e90ff;
+   font-weight: bold;
+   padding: 1%;
+   color: rgba(16, 2, 2, 0.591);
+   text-decoration: none;
+   border-radius: 6%;
+   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+   margin: 13px;
+
+
+}
+
+.btn-primary:hover {
+   background-color: #3742fa;
+   color: white;
+}
+
+.btn-secondary {
+   background-color: #53ee84;
+   font-weight: bold;
+   padding: 1%;
+   color: rgba(16, 2, 2, 0.591);
+   text-decoration: none;
+   border-radius: 6%;
+   margin-right: 2%;
+   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+
+}
+
+.btn-secondary:hover {
+   background-color: #1ca357;
+   color: rgb(235, 230, 230);
+}
+
+.btn-danger{
+   background-color: #ff6b81;
+   font-weight: bold;
+   padding: 1%;
+   color: rgba(16, 2, 2, 0.591);
+   text-decoration: none;
+   border-radius: 6%;
+   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+
+}
+
+.btn-danger:hover {
+   background-color: #ef4251;
+   color: white;
+}
+
+.success{
+   color: #00a949;
+}
+
+.failure{
+   color:  #ef4251;
+}
+
+ /* CSS for MENU */
+ .menu {
+    /* text-align: center; */
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    background-color: #374b61;
+    padding: 3% 0;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+
+   }
+
+ .menu ul{
+    list-style-type: none;
+ }
+
+ .menu ul li{
+    display: inline;
+    padding: 3%;
+ }
+
+ .menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: #ff6b81;
+ }
+
+ .menu ul li a:hover{
+    color: #deb8bb;
+ }
+
+/* CSS for MAIN Content */
+ .main-content {
+    position: relative; 
+    background-color: #ced6e0;
+    height: max-content;
+    padding: 2% 0;
+   }
+
+
+ .dashboard-wrapper{
+   padding: 0.5%;
+   width: 80%;
+   margin: 0 auto ;
+   padding-bottom: 105px;
+ }
+
+ .col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border-radius: 4%;
+    box-shadow: 0px 9px 9px 2px rgba(17, 17, 26, 0.18);
+    /* text-align: center; */
+ }
+
+ .col-4 h1 {
+    font-size: 43px;
+ }
+
+ .col-4 .p-text {
+    font-size: 19px;
+
+ }
+
+ /* CSS for footer */
+ .footer{
+    /* position: fixed; */
+    font-size: 16px;
+    background-color: #ff4757;
+    height: 6%;
+    color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 4% 0;
+    box-shadow:-10px -10px 15px 0px #f6f6f6, 10px 10px 15px 0px #cecece;
+    
+    /* margin-bottom: 0; */
+    /* margin-top:44%; */
+ }
+
+ .footer .footer-text a{
+    color: #763387ce;
+    text-decoration: none;
+}
+
+.footer .footer-text:hover{
+   font-size: 18px;
+    color: #504f4ff5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CSS for Admin */
+.admin-wrapper{
+   position: relative; 
+   background-color: #ced6e0;
+   height: max-content;
+   padding: 2% 0;
+}
+
+/* css for login */
+.login-body {
+   background-color: #c3cde1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.login{
+   width: 20%;
+   margin: auto;
+   height: max-content;
+   
+   /* border: 150px solid #374b61; */
+   padding: 6% 4%;
+   border-radius: 27px;
+   background: #ced6e0;
+   box-shadow:  5px 5px 19px #b7bec7,
+                -5px -5px 19px #e5eef9;
+                
+}
+
+.login-title{
+   padding-bottom: 8%;
+}
+
+.p-tag{
+   padding-top: 4%;
+}
+
+.unit{
+   margin: 3%;
+}
+
+.submit{
+   margin: 8%;
+   padding: 2% 3%;
+}
