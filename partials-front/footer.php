@@ -16,7 +16,7 @@
                     </ul>
                 </div>
             </section>
-            <p>All rights reserved. Designed By <a href="#"> Sinchana Zaiba</a></p>
+            <p>All rights reserved. Designed By <a href="https://sinchana-p.github.io/My-portfolio/"><i class="fa-solid fa-laptop-code"></i> Sinchana & Zaiba</a> together we are Simba 🦁</p>
         </div>
     </section>
     <!-- footer Section Ends Here -->

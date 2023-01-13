@@ -20,6 +20,8 @@
                 if($count==1){
                     //details available
                     $row = mysqli_fetch_assoc($res);
+                    $food = $row['food'];
+                    $qty = $row['qty'];
                     $status = $row['status'];
                 }
                 else{
@@ -39,12 +41,12 @@
             <table class="tbl-30">
                 <tr>
                     <td>Food Name</td>
-                    <td><input type="text" name="food"></td>
+                    <td><input type="text" name="food" value="<?php echo $food ;?>"></td>
                 </tr>
                 <tr>
                     <td>Qty</td>
                     <td>
-                        <input type="number" name="qty" value="">
+                        <input type="number" name="qty" value="<?php echo $qty ;?>">
                     </td>
                 </tr>
                 <tr>
