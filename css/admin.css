@@ -1,17 +1,18 @@
 /*
+ 
  Author: Sinchana;
  Theme: food order website Admin;
  Version: 1.0;
  DRY pattern: Don't repeat yourself;
- */
+ 
+*/                                                                 
 
  *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    /* user-select: none; */
+    user-select: none;
     text-decoration: none;
-
     /* font-family: Arial, Helvetica, sans-serif; */
  }
 
@@ -36,6 +37,16 @@
    text-align: center;
    /* text-align: center; */
 } 
+
+.wrapper-lite2{
+   /* border: 1px solid black; */
+   /* padding: 5%; */
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   /* text-align: center; */
+} 
+
 .my-table{
    /* text-align: center; */
    margin: 0 auto;

@@ -207,13 +207,14 @@
                             }
                             else
                             {
+                                // Default image when image is not selected.
                                 $image_name = $current_image;  //this is again bcz... user may open select files tab...and leave with CANCEL without selecting any data.
                             }
                         }
                         else
                         {
                             // keep same old-image
-                            $image_name = $current_image;
+                            $image_name = $current_image;  // Default image when button is not clicked.
                         }
 
                         $sql3 = "UPDATE tbl_food SET 

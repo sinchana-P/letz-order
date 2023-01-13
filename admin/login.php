@@ -51,8 +51,8 @@
     {
         //process for login.
         //1. Get the data from login.
-        $username = $_POST['username'];
-        $password = md5($_POST['password']);
+        $username = mysqli_real_escape_string($conn,$_POST['username']);
+        $password = mysqli_real_escape_string($conn,md5($_POST['password']));
 
         //2. SQL to check whether user with username and password exists or not.
         $sql = "SELECT * FROM tbl_admin where username='$username' AND password='$password'"; 
