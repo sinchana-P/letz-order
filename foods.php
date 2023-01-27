@@ -40,7 +40,7 @@
                                         <?php
                                             if($image_name != ""){
                                                 ?>
-                                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve" width="50px" height="100px">
+                                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve" width="50px" height="140px">
                                                 <?php
                                             }
                                             else{

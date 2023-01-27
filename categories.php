@@ -3,7 +3,7 @@
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container food-container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center">Explore Categories</h2>
 
             <?php 
                 

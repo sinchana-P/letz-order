@@ -17,7 +17,7 @@
     <section class="">
         <div class="menu">
             <div class="logo">
-                <a href="#" title="Logo">
+                <a href="<?php SITEURL ?>index.php" title="Logo">
                     <img src="images/logo32.png" alt="Restaurant Logo">
                 </a>
             </div>
@@ -34,7 +34,7 @@
                         <a href="<?php echo SITEURL ;?>foods.php">Foods</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="<?php echo SITEURL ;?>reviews.php">Reviews</a>
                     </li>
                 </ul>
             </div>

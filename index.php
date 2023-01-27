@@ -74,6 +74,9 @@
 
             <div class="clearfix"></div>
         </div>
+        <p class="text-center">
+            <a href="<?php SITEURL ?>categories.php">See All Categories...</a>
+        </p>
     </section>
     <!-- Categories Section Ends Here -->
 
@@ -103,7 +106,7 @@
                                         <?php
                                             if($image_name != ""){
                                                 ?>
-                                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve" width="50px" height="100px">
+                                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve" width="150px" height="140px">
                                                 <?php
                                             }
                                             else{
@@ -144,7 +147,7 @@
         </div>
 
         <p class="text-center">
-            <a href="#">See All Foods</a>
+            <a href="<?php SITEURL ?>foods.php">See All Foods...</a>
         </p>
     </section>
     <!-- fOOD Menu Section Ends Here -->
